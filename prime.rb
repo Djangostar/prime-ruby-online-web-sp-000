@@ -1,6 +1,5 @@
 require 'prime'
 
 def prime?(num)
-  Prime.prime?(num)
-  true
+  Prime.prime?(num) == true ? true : false
 end
